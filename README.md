@@ -4,7 +4,7 @@
 **AIM** 
 To implement Remote Command Execution(RCE).
 
-**ALGORITHM **
+ALGORITHM
 
 **CLIENT SIDE**
 1. Establish a connection between the Client and Server. Socket client=new Socket("127.0.0.1",6555); 
@@ -105,7 +105,7 @@ System.out.println("Error"+e);
 
 }
 
-**OUTPUT **  
+OUTPUT   
 ![image](https://user-images.githubusercontent.com/86098875/142734197-f0de3a90-44f1-4a2e-9d3b-7415d5e4482b.png)
 ![image](https://user-images.githubusercontent.com/86098875/142734213-945d964f-eb27-45ec-8f26-3c9ec90fca06.png)
 ![image](https://user-images.githubusercontent.com/86098875/142734220-6f47dca6-8866-4a40-8831-09502ba0a834.png)
