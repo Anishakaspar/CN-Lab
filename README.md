@@ -17,7 +17,7 @@ ALGORITHM
 2. Getthe IPaddressfromitsinputstream. BufferedReaderbr1=newBufferedReader(newInputStreamReader(s.getInputStream())); ip=br1.readLine();
 3. During runtime execute the process Runtime r=Runtime.getRuntime(); Process p=r.exec(str);
   
-**** CLIENT PROGRAM****
+ **CLIENT PROGRAM**
  
 import java.io.*;
 
