@@ -12,7 +12,7 @@ To implement Remote Command Execution(RCE).
 3. BufferedReaderbr=newBufferedReader(newInputStreamReader(System.in));
 4. Enter the command in Client Window. Send themessage to its output str=br.readLine(); ps.println(str);
  
-** SERVER SIDE**
+ SERVER SIDE
 1. Accept the connection request by the client. ServerSocket server=new ServerSocket(6555); Sockets=server.accept(); 
 2. Getthe IPaddressfromitsinputstream. BufferedReaderbr1=newBufferedReader(newInputStreamReader(s.getInputStream())); ip=br1.readLine();
 3. During runtime execute the process Runtime r=Runtime.getRuntime(); Process p=r.exec(str);
